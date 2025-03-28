@@ -28,8 +28,8 @@ fn main() {
     sys.refresh_all();
 
     let executable_path = match OS {
-        "windows" => r"C:\Users\Bruker\Documents\GitHub\sanntidslab\target\debug\driver-rust.exe",
-        "linux" => r"/home/student/Dokumenter/GitHub/sanntidslab/target/debug/driver-rust",
+        "windows" => r"../sanntidslab/target/debug/driver-rust.exe",
+        "linux" => r"../sanntidslab/target/debug/driver-rust",
         _ => panic!("OS not supported")
     };
 
